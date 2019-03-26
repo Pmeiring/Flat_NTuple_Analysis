@@ -1,0 +1,61 @@
+
+
+c2->cd(1);
+
+	gStyle->SetLineWidth(1);
+	 THStack *hs21 = new THStack("hs21","");
+
+	for (int iH = 0; iH < 8; iH++){
+		if (iH == hh) {
+			MasterHistogram[iH][i211]->SetLineColor(color[iH]);
+			MasterHistogram[iH][i211]->SetLineStyle(9);
+		}
+		else {
+			MasterHistogram[iH][i211]->SetFillColor(color[iH]);
+			MasterHistogram[iH][i211]->SetLineColor(kBlack);
+		}
+	}
+
+	hs21->Add(MasterHistogram[vv][i211]);
+	hs21->Add(MasterHistogram[singleh][i211]);
+	hs21->Add(MasterHistogram[ttw][i211]);
+	hs21->Add(MasterHistogram[dy][i211]);
+	hs21->Add(MasterHistogram[wt][i211]);
+	hs21->Add(MasterHistogram[zjets][i211]);
+	hs21->Add(MasterHistogram[tt][i211]);
+
+	hs21->SetMinimum(1e-2);
+
+	hs21->SetMaximum(2e8);
+
+	hs21->Draw("HIST");
+	hs21->GetXaxis()->SetTitle(MasterHistogram[0][i211]->GetTitle());
+	//hs21->GetXaxis()->SetNdivisions(9);
+
+	hs21->GetYaxis()->SetNdivisions(6);
+
+	MasterHistogram[hh][i211]->Draw("same");
+
+	gPad->Modified();
+	gPad->SetLogy();
+
+	TLatex t211(0,0.95,"Events");   t211.SetNDC(kTRUE);   t211.SetTextSize(0.030); t211.Draw("same");
+
+	std::ostringstream oss212;
+	oss212 << "#splitline{#sqrt{s} = 13 TeV, 140 fb^{-1} }{m_{bb} #in [100,140]}";	std::string var212 = oss212.str();
+	TLatex t212(.2,.8,var212.c_str());    t212.SetTextSize(0.03);
+	t212.SetNDC(kTRUE);
+	t212.Draw();
+	auto legend21 = new TLegend(.6,.75,.9,.9);
+
+	legend21->SetNColumns(2);
+	legend21->AddEntry(MasterHistogram[vv][i211],(label[vv]).c_str(),"f");
+	legend21->AddEntry(MasterHistogram[hh][i212],(label[hh]).c_str(),"l");
+	legend21->AddEntry(MasterHistogram[singleh][i213],(label[singleh]).c_str(),"f");
+	legend21->AddEntry(MasterHistogram[ttw][i214],(label[ttw]).c_str(),"f");
+	legend21->AddEntry(MasterHistogram[dy][i215],(label[dy]).c_str(),"f");
+	legend21->AddEntry(MasterHistogram[wt][i216],(label[wt]).c_str(),"f");
+	legend21->AddEntry(MasterHistogram[zjets][i217],(label[zjets]).c_str(),"f");
+	legend21->AddEntry(MasterHistogram[tt][i218],(label[tt]).c_str(),"f");
+	legend21->Draw("same");
+

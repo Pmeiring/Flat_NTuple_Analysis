@@ -1,0 +1,21 @@
+
+
+c1->cd(1);
+	MasterHistogram[i111]->SetLineColor(color1);
+	MasterHistogram[i111]->Draw();
+	MasterHistogram[i111]->GetXaxis()->SetTitle("Inv. Mass [GeV]");
+	MasterHistogram[i111]->GetYaxis()->SetTitle("");
+	gPad-> SetLogy();
+	TLatex t11(0,0.95,"Events");   t11.SetNDC(kTRUE);   t11.SetTextSize(0.030); t11.Draw("same");
+
+
+	auto legend11 = new TLegend(.6,.75,.9,.9);
+	legend11->AddEntry(MasterHistogram[i111],"");
+	legend11->Draw("same");
+
+	std::ostringstream oss111;
+	oss111 << "#color[1]{#splitline{Nr. Events = "<<MasterHistogram[i111]->GetEntries()<<"}{#splitline{Mean = "<<	MasterHistogram[i111]->GetMean()<<"}{Std Dev = "<<		MasterHistogram[i111]->GetStdDev()<<"}}}";
+	std::string var111 = oss111.str();
+	TLatex t111(.65,.6,var111.c_str());    t111.SetTextSize(0.025);
+	t111.SetNDC(kTRUE);
+	t111.Draw();

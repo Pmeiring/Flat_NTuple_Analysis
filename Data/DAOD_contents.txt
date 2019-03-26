@@ -1,0 +1,91 @@
+[?1034h========================================================================================================================
+ File: ../NTuples/DxAOD/mc16_13TeV.364198.Sherpa_221_NN30NNLO_Zmm_Mll10_40_MAXHTPTV0_70_BVeto.deriv.DAOD_SUSY2.e5421_s3126_r10201_p3703/DAOD_SUSY2.16176147._000001.pool.root.1
+------------------------------------------------------------------------------------------------------------------------
+    Memory size        Disk Size       Size/Event  Compression Entries  Name (Type)
+------------------------------------------------------------------------------------------------------------------------
+        12.60 kB          1.85 kB     0.00 kB/event    6.82       788   TrigConfKeys (xAOD::TrigConfKeys_v1) [Trig]
+        15.69 kB          2.88 kB     0.00 kB/event    5.44       788   AntiKt4LCTopoJets (DataVector<xAOD::Jet_v1>) [Jet]
+        57.50 kB          4.04 kB     0.01 kB/event   14.22       788   TruthTop (DataVector<xAOD::TruthParticle_v1>) [Truth]
+        57.50 kB          4.04 kB     0.01 kB/event   14.22       788   TruthBSM (DataVector<xAOD::TruthParticle_v1>) [Truth]
+        71.80 kB          7.80 kB     0.01 kB/event    9.20       788   Kt4EMPFlowEventShape (xAOD::EventShape_v1) [PFO]
+        71.84 kB          7.83 kB     0.01 kB/event    9.17       788   Kt4EMTopoOriginEventShape (xAOD::EventShape_v1) [PFO]
+       100.80 kB         21.53 kB     0.03 kB/event    4.68       788   HLT_xAOD__ElectronContainer_egamma_Electrons (DataVector<xAOD::Electron_v1>) [Trig]
+       107.35 kB         26.61 kB     0.03 kB/event    4.03       788   HLT_xAOD__PhotonContainer_egamma_Photons (DataVector<xAOD::Photon_v1>) [Trig]
+       146.67 kB         35.31 kB     0.04 kB/event    4.15       788   LVL1MuonRoIs (DataVector<xAOD::MuonRoI_v1>) [Trig]
+       249.64 kB         43.06 kB     0.05 kB/event    5.80       788   InDetForwardTrackParticles (DataVector<xAOD::TrackParticle_v1>) [InDet]
+       207.33 kB         47.47 kB     0.06 kB/event    4.37       788   GSFConversionVertices (DataVector<xAOD::Vertex_v1>) [egamma]
+       239.49 kB         48.29 kB     0.06 kB/event    4.96       788   TruthNeutrinos (DataVector<xAOD::TruthParticle_v1>) [Truth]
+       184.39 kB         52.87 kB     0.07 kB/event    3.49       788   MET_Core_AntiKt4EMPFlow (xAOD::MissingETContainer_v1) [MET]
+       238.22 kB         53.37 kB     0.07 kB/event    4.46       788   TruthBoson (DataVector<xAOD::TruthParticle_v1>) [Truth]
+       233.22 kB         70.54 kB     0.09 kB/event    3.31       788   MET_Truth (xAOD::MissingETContainer_v1) [MET]
+       220.65 kB         72.10 kB     0.09 kB/event    3.06       788   MET_Core_AntiKt4EMTopo (xAOD::MissingETContainer_v1) [MET]
+       212.53 kB         72.18 kB     0.09 kB/event    2.94       788   HLT_xAOD__MuonContainer_MuonEFInfo_FullScan (DataVector<xAOD::Muon_v1>) [Trig]
+       318.43 kB         83.60 kB     0.11 kB/event    3.81       788   MuonTruthParticles (DataVector<xAOD::TruthParticle_v1>) [Muon]
+       530.22 kB         87.88 kB     0.11 kB/event    6.03       788   TruthTaus (DataVector<xAOD::TruthParticle_v1>) [Truth]
+       359.27 kB         88.15 kB     0.11 kB/event    4.08       788   LVL1EmTauRoIs (DataVector<xAOD::EmTauRoI_v2>) [Trig]
+       427.23 kB        128.23 kB     0.16 kB/event    3.33       788   MET_Reference_AntiKt4EMPFlow (xAOD::MissingETContainer_v1) [MET]
+       461.08 kB        128.62 kB     0.16 kB/event    3.58       788   TruthMuons (DataVector<xAOD::TruthParticle_v1>) [Truth]
+      1155.52 kB        130.86 kB     0.17 kB/event    8.83       788   AntiKt4TruthJets (DataVector<xAOD::Jet_v1>) [Jet]
+       427.18 kB        131.00 kB     0.17 kB/event    3.26       788   MET_Reference_AntiKt4EMTopo (xAOD::MissingETContainer_v1) [MET]
+       467.62 kB        134.46 kB     0.17 kB/event    3.48       788   HLT_xAOD__MuonContainer_MuonEFInfo (DataVector<xAOD::Muon_v1>) [Trig]
+       445.19 kB        139.60 kB     0.18 kB/event    3.19       788   TruthElectrons (DataVector<xAOD::TruthParticle_v1>) [Truth]
+      8264.04 kB        177.47 kB     0.23 kB/event   46.57       788   xTrigDecision (xAOD::TrigDecision_v1) [Trig]
+       410.54 kB        221.42 kB     0.28 kB/event    1.85       788   MuonSpectrometerTrackParticles (DataVector<xAOD::TrackParticle_v1>) [Muon]
+       383.59 kB        253.87 kB     0.32 kB/event    1.51       788   MuonClusterCollection (DataVector<xAOD::CaloCluster_v1>) [Muon]
+      4864.20 kB        295.83 kB     0.38 kB/event   16.44       788   TruthVertices (DataVector<xAOD::TruthVertex_v1>) [Truth]
+       818.25 kB        329.71 kB     0.42 kB/event    2.48       788   ExtrapolatedMuonTrackParticles (DataVector<xAOD::TrackParticle_v1>) [Muon]
+       826.52 kB        337.36 kB     0.43 kB/event    2.45       788   CombinedMuonTrackParticles (DataVector<xAOD::TrackParticle_v1>) [Muon]
+       791.98 kB        365.18 kB     0.46 kB/event    2.17       788   EventInfo (xAOD::EventInfo_v1) [EvtId]
+      1103.49 kB        373.12 kB     0.47 kB/event    2.96       788   TruthPhotons (DataVector<xAOD::TruthParticle_v1>) [Truth]
+      9045.14 kB        387.05 kB     0.49 kB/event   23.37       788   PrimaryVertices (DataVector<xAOD::Vertex_v1>) [InDet]
+      1175.74 kB        400.01 kB     0.51 kB/event    2.94       788   McEventInfo (PileUpEventInfo_p5) [EvtId]
+       860.85 kB        432.29 kB     0.55 kB/event    1.99       788   MET_Track (xAOD::MissingETContainer_v1) [MET]
+      1022.82 kB        555.36 kB     0.70 kB/event    1.84       788   GSFTrackParticles (DataVector<xAOD::TrackParticle_v1>) [egamma]
+       946.00 kB        655.46 kB     0.83 kB/event    1.44       788   BTagging_AntiKt4EMPFlow (DataVector<xAOD::BTagging_v1>) [BTag]
+      1808.46 kB        704.26 kB     0.89 kB/event    2.57       788   METAssoc_AntiKt4EMPFlow (xAOD::MissingETAssociationMap_v1) [MET]
+     27355.78 kB        706.43 kB     0.90 kB/event   38.72       788   TruthEvents (DataVector<xAOD::TruthEvent_v1>) [Truth]
+      2106.83 kB        750.47 kB     0.95 kB/event    2.81       788   Muons (DataVector<xAOD::Muon_v1>) [Muon]
+      2340.03 kB        818.59 kB     1.04 kB/event    2.86       788   METAssoc_AntiKt4EMTopo (xAOD::MissingETAssociationMap_v1) [MET]
+      2218.95 kB        887.97 kB     1.13 kB/event    2.50       788   Electrons (DataVector<xAOD::Electron_v1>) [egamma]
+      2442.16 kB        922.60 kB     1.17 kB/event    2.65       788   Photons (DataVector<xAOD::Photon_v1>) [egamma]
+      2758.83 kB       1077.80 kB     1.37 kB/event    2.56       788   MuonSegments (DataVector<xAOD::MuonSegment_v1>) [Muon]
+      1483.98 kB       1096.07 kB     1.39 kB/event    1.35       788   BTagging_AntiKt4EMTopo (DataVector<xAOD::BTagging_v1>) [BTag]
+      7424.69 kB       1137.98 kB     1.44 kB/event    6.52       788   TauJets (DataVector<xAOD::TauJet_v3>) [tau]
+      2323.58 kB       1235.30 kB     1.57 kB/event    1.88       788   egammaClusters (DataVector<xAOD::CaloCluster_v1>) [egamma]
+      2146.38 kB       1276.70 kB     1.62 kB/event    1.68       788   InDetTrackParticles (DataVector<xAOD::TrackParticle_v1>) [InDet]
+      8834.91 kB       1321.82 kB     1.68 kB/event    6.68       788   AntiKt4EMPFlowJets (DataVector<xAOD::Jet_v1>) [PFO]
+     11833.93 kB       1391.30 kB     1.77 kB/event    8.51       788   TrigNavigation (xAOD::TrigNavigation_v1) [Trig]
+      4753.38 kB       1575.20 kB     2.00 kB/event    3.02       788   TruthParticles (DataVector<xAOD::TruthParticle_v1>) [Truth]
+      5246.96 kB       1835.43 kB     2.33 kB/event    2.86       788   TauTracks (DataVector<xAOD::TauTrack_v1>) [tau]
+     12406.50 kB       2089.90 kB     2.65 kB/event    5.94       788   AntiKt4EMTopoJets (DataVector<xAOD::Jet_v1>) [Jet]
+      8496.85 kB       5889.24 kB     7.47 kB/event    1.44       788   CaloCalTopoClusters (DataVector<xAOD::CaloCluster_v1>) [CaloTopo]
+------------------------------------------------------------------------------------------------------------------------
+    143514.33 kB      31125.37 kB    39.50 kB/event                     Total
+========================================================================================================================
+
+================================================================================
+         Categorized data
+================================================================================
+     Disk Size         Fraction    Category Name
+--------------------------------------------------------------------------------
+       0.971 kb        0.025       EvtId
+       1.697 kb        0.043       PFO
+       2.166 kb        0.055       InDet
+       2.223 kb        0.056       BTag
+       2.473 kb        0.063       Trig
+       2.822 kb        0.071       Jet
+       3.058 kb        0.077       MET
+       3.773 kb        0.096       tau
+       3.876 kb        0.098       Muon
+       4.336 kb        0.110       Truth
+       4.630 kb        0.117       egamma
+       7.474 kb        0.189       CaloTopo
+      39.499 kb        1.000       Total
+
+================================================================================
+CSV for categories disk size/evt and fraction:
+Total,CaloTopo,egamma,Truth,Muon,tau,MET,Jet,Trig,BTag,InDet,PFO,EvtId
+39.499,7.474,4.630,4.336,3.876,3.773,3.058,2.822,2.473,2.223,2.166,1.697,0.971
+1.000,0.189,0.117,0.110,0.098,0.096,0.077,0.071,0.063,0.056,0.055,0.043,0.025
+================================================================================
+
